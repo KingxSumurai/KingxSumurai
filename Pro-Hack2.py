@@ -106,16 +106,7 @@ def xoshnaw():
       time.sleep(0.3)
       pass
     else:
-      print("\x1b[1;91mID ACTIVATE (WhatsApp) INBOX  ")
-      os.system('xdg-open https://wa.me/+2349069702172')
-      time.sleep(1)
-      sys.exit()
-  except:
-    sys.exit()
-    if name == '__main__':
-    	print(logo)
-    	xoshnaw()
-xoshnaw() 
+      pass
 
 # VALIDASI TOKEN
 def login():
