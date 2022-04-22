@@ -94,19 +94,7 @@ def banner():
 
 """%(h))
 
-def xoshnaw():
-  uuid = str(os.geteuid()) + str(os.getlogin())
-  id = "-".join(uuid)
-  print("\x1b[37;1mYOUR ID : "+id)
-  try:
-    httpCaht = requests.get("https://github.com/KingxSumurai/KingxSumurai/blob/main/blade.txt").text
-    if id in httpCaht:
-      print("\033[1;92mYOUR ID IS ACTIVE...!")
-      msg = str(os.geteuid())
-      time.sleep(0.3)
-      pass
-    else:
-      pass
+
 
 # VALIDASI TOKEN
 def login():
